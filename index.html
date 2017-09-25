@@ -5,25 +5,116 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Start Template</title>
+    <title>SkeletonCSS Cheat Sheet</title>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Latest compiled and minified FontAwesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- SkeletonCSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <!-- FavIcon -->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <!-- Main Style-->
     <link rel="stylesheet" href="css/main.css">
-
-
 </head>
 
 <body>
 
     <!-- Start Coding Here -->
+    <!-- HEADINGS -->
+    <h1>Heading</h1>
+    <h2>Heading</h2>
+    <h3>Heading</h3>
+    <h4>Heading</h4>
+    <h5>Heading</h5>
+    <h6>Heading</h6>
+
+    <!--FLOATING -->
+    <h2 class="u-pull-left"> Left </h2>
+    <h2 class="u-pull-right"> Right </h2>
+    <div class="u-cf"></div>
+
+    <!-- BUTTONS -->
+    <button>Button</button>
+    <input type="submit" value="submit">
+    <a href="#" class="button">Link</a>
+
+    <!-- PRIMARY BUTTONS -->
+    <button class="button-primary">Button</button>
+    <input class="button-primary" type="submit" value="submit">
+    <a class="button-primary" href="#" class="button">Link</a>
+
+    <!--Full Width (not just for buttons) -->
+
+    <button class="u-full-width button-primary">Full Width Button</button>
+
+    <!-- LISTS -->
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Services
+            <ul>
+                <li>Web Design</li>
+                <li>Programming</li>
+            </ul>
+        </li>
+        <li>Contact</li>
+    </ul>
+
+    <!-- CODE BLOCK -->
+    <pre>
+        <code>
+            body {
+                color:#fff;
+                bacground: #000;
+            }
+        </code>
+    </pre>
+
+    <!-- TABLES -->
+    <table class="u-full-width">
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+        </tr>
+    </table>
+
+    <!-- FORMS -->
+    <form action="">
+        <div>
+            <label for="">Name</label>
+            <input type="text" placeholder="Enter name">
+        </div>
+    </form>
+
+    <!-- GRID -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="eight columns">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos ratione similique dolore officia accusantium ipsum. Numquam modi accusantium non, debitis distinctio eius dolor mollitia magni pariatur totam fugiat cumque maiores laborum nostrum voluptates,
+                tempora dolore incidunt, obcaecati cupiditate consequatur deleniti!
+            </div>
+            <div class="four columns">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos ratione similique dolore officia accusantium ipsum. Numquam modi accusantium non, debitis distinctio eius dolor mollitia magni pariatur totam fugiat cumque maiores laborum nostrum voluptates,
+            </div>
+        </div>
+    </div>
+
+
 
     <!-- End Coding Here -->
 
